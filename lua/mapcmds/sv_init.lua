@@ -1,0 +1,10 @@
+include ("mapcmds/sv_menus.lua")
+include ("mapcmds/sv_voting.lua")
+include ("mapcmds/sv_mapchooser.lua")
+include ("mapcmds/sv_rtv.lua")
+include ("mapcmds/sv_nominate.lua")
+include ("mapcmds/sv_messaging.lua")
+
+AddCSLuaFile ("mapcmds/cl_init.lua")
+AddCSLuaFile ("mapcmds/cl_menu.lua")
+AddCSLuaFile ("mapcmds/cl_voteresults.lua")
